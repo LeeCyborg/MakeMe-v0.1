@@ -1,0 +1,54 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  <script src="script.js"> </script>
+<style>
+* { 
+	font-family:verdana;
+}
+	body { 
+		background:gray;
+	}
+	img.card{ 
+		width:200px;
+		height:auto;
+		top:-510px;
+		left:-501px;
+		position:absolute;
+}
+	#container{ 
+		width:100%;
+		margin:0 auto;
+	}
+
+	#pile { 
+		border:1px solid white;
+		width:220px;
+		height:250px;
+		padding:5px;
+		color:white;
+	}
+
+</style>
+</head>
+<body> 
+
+
+  <div id="container">
+  	<h1>MakeMe Card Game </h1>
+  	<div id="game">
+  		<div id="pile">
+  			<p> Draw A Card </p>
+  			<button id="any"> Draw Random Card</button>
+  			<button id="platform"> Draw Platform Card</button>
+  			<button id="system"> Draw System Card</button>
+  			<button id="special"> Draw Special Card</button>
+  			<button id="theme"> Draw Theme Card</button>
+  		</div>
+  	</div>
+  </div>
+</body>
+</html>

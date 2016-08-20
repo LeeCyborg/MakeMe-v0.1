@@ -1,0 +1,25 @@
+* { 
+	font-family:verdana;
+}
+	body { 
+		background:gray;
+	}
+	img.card{ 
+		width:200px;
+		height:auto;
+		top:-510px;
+		left:-501px;
+		position:absolute;
+}
+	#container{ 
+		width:100%;
+		margin:0 auto;
+	}
+
+	#pile { 
+		border:1px solid white;
+		width:220px;
+		height:250px;
+		padding:5px;
+		color:white;
+	}
